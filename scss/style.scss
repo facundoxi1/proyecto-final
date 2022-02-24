@@ -1,48 +1,6 @@
 /* Nesting o anidamiento*/
 
-header {
-  nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 20px;
-    a {
-    }
-    button {
-    }
-    div {
-    }
-  }
-  @media screen and (min-width: 200px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 2%;
-    font-size: 0.6rem;
-  }
-  @media screen and (min-width: 400px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 2%;
-    font-size: 0.8rem;
-  }
-  @media screen and (min-width: 550px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 2%;
-    font-size: 1.2rem;
-  }
-  @media screen and (min-width: 990px) {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 3%;
-    font-size: 1.5rem;
-  }
-}
+@import "header";
+@import "footer";
+@import "main";
+@import "sectionindex";
