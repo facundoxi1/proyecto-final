@@ -39,14 +39,10 @@ body {
 }
 
 nav {
-  /*width: 50%;*/
-  font-size: 20px;
-}
-
-nav {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  font-size: 20px;
 }
 
 ul {
@@ -200,9 +196,6 @@ main {
   background-color: r#df922f;
 }
 
-.contacto-item {
-  grid-column: 1/3;
-}
 /* Pedidos*/
 .grid-container-2 {
   display: grid;
@@ -213,15 +206,9 @@ main {
   background-color: #df922f;
 }
 
-footer {
-  background-color: black;
-}
-
 .footer-xd {
   background-color: black;
   margin-top: 50px;
-  display: flex;
-  flex-direction: row;
 }
 /* Tablet media query */
 @media screen and (min-width: 200px) {
