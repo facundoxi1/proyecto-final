@@ -1,10 +1,20 @@
+@import "../base/variables";
+@import "../base/maps";
+@import "../base/listas";
+
 header {
+  background-color: $bg-color-general;
   nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     font-size: 20px;
   }
+
+  body {
+    background-color: $bg-color-general;
+  }
+
   @media screen and (min-width: 200px) {
     display: flex;
     flex-direction: row;

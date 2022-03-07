@@ -1,0 +1,7 @@
+@import "../base/variables";
+@import "../base/maps";
+@import "../base/listas";
+footer {
+  background-color: $bg-color-footer;
+  margin: $margin-footer;
+}
