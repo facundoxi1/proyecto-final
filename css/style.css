@@ -1,65 +1,82 @@
-/* Nesting o anidamiento*/
-header {
-  background-color: #bd9c70;
+/*Contacto*/
+.formContainer {
+  /* background-color: #6096e4; */
+  width: 100%;
+  padding: 0 60px 0 60px;
 }
-header nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-size: 20px;
+
+.form input {
+  margin-bottom: 20px;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
 }
-header body {
-  background-color: #bd9c70;
+.form textarea {
+  margin-bottom: 20px;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  height: 100px;
 }
+
+.canalesDeContacto {
+  padding-bottom: 40px;
+}
+.canalesDeContacto p {
+  margin-bottom: 0px;
+}
+
+.send {
+  padding-bottom: 40px !important;
+  padding-top: 15px !important;
+}
+
+.contacto-container {
+  background-color: #055160 !important;
+  padding: 20px 0;
+}
+
+.form-titulo {
+  color: #ffffff !important;
+}
+
+.producto-huevo {
+  padding: 40px 30px;
+}
+
+.accordion-button {
+  background-color: #055160;
+  color: #ffffff !important;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.quienes-somos {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding: 40px 30px;
+}
+.quienes-somos h2 {
+  margin-bottom: 50px;
+}
+
+/* Tablet media query */
 @media screen and (min-width: 200px) {
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 2%;
-    font-size: 0.6rem;
+  .producto-huevo {
+    padding: 40px 100px;
   }
 }
+/* Escritorio media query */
 @media screen and (min-width: 400px) {
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 2%;
-    font-size: 0.8rem;
+  .producto-huevo {
+    padding: 60px 200px;
   }
-}
-@media screen and (min-width: 550px) {
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding-bottom: 2%;
-    font-size: 1.2rem;
-  }
-}
-@media screen and (min-width: 990px) {
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 3%;
-    font-size: 1.5rem;
-  }
-}
-
-footer {
-  background-color: black;
-  margin: 50px;
-}
-
-main {
-  background-color: #bd9c70;
-  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

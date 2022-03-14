@@ -1,26 +1,18 @@
 {
-  "name": "proyecto-final",
+  "name": "facundo-fernandez",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "sass --watch scss/style.scss css/style.css"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/facundoxi1/proyecto-final.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/facundoexi1/proyecto-final/issues"
-  },
-  "homepage": "https://github.com/facundoxi1/proyecto-final#readme",
   "devDependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
   },
   "dependencies": {
     "sass": "^1.49.9"
-  },
-  "description": ""
+  }
 }

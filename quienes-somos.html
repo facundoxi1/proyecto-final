@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quienes somos - Granja Saludable</title>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +15,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style1.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/reset.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,107 +38,82 @@
       content="Gallinero, Gallinas, Granja, Saludable, venta de huevos, pedidos, huevos, Easter, Australorp, Leghorn"
     />
   </head>
-
-  <title>HuevosDeGranja</title>
   <body>
-    <header class="header-media menu-mobile">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="index.html">
-          <img
-            src="imagenes/logogallina.png"
-            width="40"
-            height="40"
-            alt="logo"
-          />
-        </a>
-        <a class="navbar-brand" href="index.html">Huevos de Granja</a>
+    <!-- Navegación  -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="contacto.html">Granja Saludable</a>
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link" href="nuestros-productos.html"
-              >Nuestros productos</a
-            >
-            <a class="nav-item nav-link" href="quienes-somos.html"
-              >Quienes somos</a
-            >
-            <a class="nav-item nav-link" href="pedidos.html">Pedidos</a>
-            <a class="nav-item nav-link" href="contacto.html">Contacto</a>
-            <a class="nav-item nav-link" href="Nuestras-instalaciones.html"
-              >Nuestras instalaciones</a
-            >
-          </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="nuestros-productos.html"
+                >Nuestros productos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienes-somos.html">Quienes somos</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contactos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nuestras-instalaciones.html"
+                >Nuestras instalaciones</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar"
+              aria-label="Buscar"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Buscar
+            </button>
+          </form>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
 
-    <section class="Quien-somos">
-      <p class="parrafo-black">
-        Somos una pequeña empresa familiar que crecio en base a la demanda de
-        nuestros consumidores. Empezamos con 100 gallinas y hoy tenemos 7
-        gallineros con 1500 gallinas de 3 razas diferentes. Nos especializamos
-        en las gallinas Easter, Australorp, y Leghorn, y nos dedicamos
-        exclusivamente a estas razas. Distribuimos nuestros huevos en camiones
-        por la Patagonia. Los pedidos se levantan desde nuestra pagina y se
-        entregan en 5 dias habiles.
+    <div class="quienes-somos">
+      <h1>Quienes somos - Granja Saludable</h1>
+      <h2>Una granja de gallinas felices</h2>
+      <p>
+        Somos una pequeña empresa del Sur de Argentina, en Rio Negro, General
+        Roca. Trabajamos hace mas de 5 años en armar diversos gallineros, en los
+        cuales se fomenta la vida silvestre de las gallinas, vida en grupo, con
+        espacio para caminar, y vivir con felicidad. Pensar que las gallinas
+        deben adaptarse a los gallineros no es nuestra filosofia, los gallineros
+        deben adaptarse a las gallinas. Estamos interesados en lograr que la
+        industria tenga un trato mas etico con las gallinas, nosotros buscamos
+        que la especie viva saludablemente, con felicidad, ademas de brindarnos
+        y proveernos como lo hacen.
       </p>
-    </section>
-
-    <div class="instalaciones-fotos">
-      <div>
-        <img src="imagenes/gallina-roja.jpg" alt="inicio" />
-      </div>
-      <div>
-        <img src="imagenes/Mockup gallina.jpg" alt="inicio" />
-      </div>
-      <div>
-        <img src="imagenes/mockup 2.jpg" alt="inicio" />
-      </div>
-      <div>
-        <img src="imagenes/mockup4.jpg" alt="inicio" />
-      </div>
+      <p>
+        Cada día nuestras instalaciones se convierten en un hervidero de
+        profesionales de distintos ámbitos, colaborando entre sí para hacer que
+        GranjaSaludable funcione a pleno rendimiento.
+      </p>
     </div>
 
-    <footer class="footer-xd">
-      <a href="">
-        <img src="imagenes/logogmail.png" width="40" height="40" alt="gmail" />
-      </a>
-
-      <a href="">
-        <img
-          src="imagenes/logoinstagram.png"
-          width="40"
-          height="40"
-          alt="instagram"
-        />
-      </a>
-
-      <a href="">
-        <img
-          src="imagenes/logotwitter.png"
-          width="40"
-          height="40"
-          alt="twitter"
-        />
-      </a>
-    </footer>
+    <!-- JavaScript Bundle with Popper -->
     <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
   </body>

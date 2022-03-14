@@ -1,8 +1,91 @@
-/* Nesting o anidamiento*/
+$color-principal: #055160;
+$color-blanco: #ffffff;
 
-@import "componentes/header";
-@import "componentes/footer";
-@import "componentes/main";
-@import "base/variables";
-@import "base/listas";
-@import "base/maps";
+/*Contacto*/
+.formContainer {
+  /* background-color: #6096e4; */
+  width: 100%;
+  padding: 0 60px 0 60px;
+}
+
+.form {
+  input {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  textarea {
+    margin-bottom: 20px;
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100px;
+  }
+}
+
+.canalesDeContacto {
+  padding-bottom: 40px;
+
+  p {
+    margin-bottom: 0px;
+  }
+}
+
+.send {
+  padding-bottom: 40px !important;
+  padding-top: 15px !important;
+}
+
+.contacto-container {
+  background-color: $color-principal !important;
+  padding: 20px 0;
+}
+
+.form-titulo {
+  color: $color-blanco !important;
+}
+
+// Nuestros productos
+.producto-huevo {
+  padding: 40px 30px;
+}
+
+.accordion-button {
+  background-color: $color-principal;
+  color: $color-blanco !important;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+// Quienes somos
+.quienes-somos {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding: 40px 30px;
+
+  h2 {
+    margin-bottom: 50px;
+  }
+}
+
+/* Tablet media query */
+@media screen and (min-width: 200px) {
+  .producto-huevo {
+    padding: 40px 100px;
+  }
+}
+
+/* Escritorio media query */
+@media screen and (min-width: 400px) {
+  .producto-huevo {
+    padding: 60px 200px;
+  }
+}
